@@ -21,7 +21,7 @@ Auth::routes();
 
 //*** CUIDADO router tem prioridade de sequencia , nao coloque /photo/{photo} ates de um /photo/create
 
-// precisa ter configurado https://mailtrap.io 
+// precisa ter configurado https://mailtrap.io (ter uma conta)
 //para visualizar o template do email se for criado (comando php artisan make:mail NewUserWelcomeMail -m emails.welcome-email)
 Route::get('/email',function() 
 {
